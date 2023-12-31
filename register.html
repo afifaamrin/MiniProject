@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style1.css" type="text/css">
+    </head>
+    <body> 
+<div class="main">
+    <div calss="register">
+        <h2>Register Here</h2>
+        <form id="register" action ="connection.php" method="post">
+            <label>First Name :</label>
+            <br>
+            <input type="text" name="fname" id="name" placeholder="Enter Your First Name" name="firstname" />
+            <br><br>
+            <label>Last Name : </label>
+            <br>
+            <input type="text" name="lname" id="name" placeholder="Enter Your Last Name" name="lastname" />
+            <br><br>
+            <label>Your Age : </label>
+            <br>
+            <input type="number" name="age" id="name" placeholder="How Old are You?" name="number" />
+            <br><br>
+            <label>Email : </label>
+            <br>
+            <input type="email" name="email" id="name" placeholder="Enter Your Valid Email" name="email" />
+            <br><br>
+            <label>Gender : </label>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" value = "m" id="male" >
+            &nbsp;
+            <span id="male">Male</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" value="f" id="female">
+            &nbsp;
+            <span id="female">Female</span>
+            <br><br>
+            <label>Known Language : </label>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="lang"  value="H" id="hindi"  />
+            &nbsp;
+            <span id="hindi">Hindi</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="lang" value="E" id="eng">
+            &nbsp;
+            <span id="eng">English</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="lang" value="U" id="urdu">
+            &nbsp;
+            <span id="urdu">Urdu</span>
+            <br><br>
+            <input type="submit" value="Submit" name="submit" id="submit">
+        </form>
+
+    </div>
+</div>
+</body>
+</html>
